@@ -4,4 +4,4 @@ Vue 实现一个在线博客分享的平台
 
 2､ **Grid** 布局 +  **Less** 编译 + **Element UI** 交互 + 接口封装
 
-**主要技术：**Vue CLI、 Vue2､ Axios、Vue Router、Vuex、ES6､ Npm、Grid、Less
+**主要技术：** Vue CLI、 Vue2､ Axios、Vue Router、Vuex、ES6､ Npm、Grid、Less
