@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>© xiedaimala.com 2018 wechat: xiedaimala01</p>
+    <p>© wuer.top 2018 wechat:wuer90s</p>
   </footer>
 </template>
 
