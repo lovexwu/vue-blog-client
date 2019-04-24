@@ -1,7 +1,7 @@
 <template>
   <header :class="{login: isLogin, 'no-login': !isLogin}">
     <template v-if="!isLogin">
-      <h1>Share Blogospher</h1>
+      <h1>Share<i class="iconfont icon-smile"></i>Blogospher</h1>
       <p>玩转博客圈</p>
       <div class="btns">
         <router-link to="/login"><el-button>立即登录</el-button></router-link>
@@ -10,7 +10,7 @@
     </template>
 
     <template v-if="isLogin">
-      <h1><router-link to="/"> Let's share </router-link></h1>
+      <h1><router-link to="/"> Share Blogospher </router-link></h1>
       <router-link to="/create"> <i class="iconfont icon-plus"></i> </router-link>
 
       <div class="user">
@@ -26,7 +26,7 @@
 
 <style lang = "less">
   @import "../assets/base.less";
-  @import "//at.alicdn.com/t/font_1053436_401f4iy7e8.css";
+  @import "//at.alicdn.com/t/font_1053436_jbm48wurhzb.css";
   header.no-login {
     padding: 0 12% 30px;
     background: @bgColor;
@@ -34,15 +34,17 @@
     justify-items: center;
 
     h1{
-      color: @white;
       font-size: 40px;
       margin-top: 60px;
       text-transform: uppercase;
     }
 
+    .icon-smile{
+      font-size: 60px;
+    }
+
     p{
       margin: 5px 0;
-      color: @white;
       font-size: 18px;
     }
 
@@ -68,7 +70,11 @@ header.login {
       }
     }
 
-    .iconfont{
+    .icon-smile{
+      font-size: 60px;
+    }
+
+    .icon-plus{
       font-size: 30px;
       color: @white;
     }
