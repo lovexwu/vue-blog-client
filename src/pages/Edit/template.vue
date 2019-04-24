@@ -38,8 +38,8 @@
     <label>是否展示到首页</label>
     <el-switch
       v-model="atIndex"
-      active-color="#13ce66"
-      inactive-color="#ff4949">
+      active-color="#FFDD67"
+      inactive-color="#f3002e">
     </el-switch>
    </p>
    <el-button @click="onEdit">确定</el-button>
