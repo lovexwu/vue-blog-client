@@ -34,10 +34,14 @@
    </el-input>
    <p>已输入{{contentNumber}}个字</p>
 
-   <p class="switch">
-    <label>是否展示到首页</label>
-    <el-switch v-model="atIndex" active-color="#FFDD67" inactive-color="#f3002e"></el-switch>
-   </p>
+    <p class="switch">
+      <label>是否展示到首页</label>
+      <el-switch
+        v-model="atIndex"
+        active-color="#FFDD67"
+        inactive-color="#f3002e">
+      </el-switch>
+    </p>
    <el-button @click="onCreate">确定</el-button>
   </div>
 </template>
