@@ -1,6 +1,7 @@
 import axios from 'axios'
 import {Message} from 'element-ui'
 
+
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-from-urlencoded'
 axios.defaults.baseURL = 'https://blog-server.hunger-valley.com'
 axios.defaults.withCredentials = true
